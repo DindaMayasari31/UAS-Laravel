@@ -10,7 +10,7 @@ Route::get('/about', function () {
     return view('about',[
         "name"=>"Dinda Mayasari",
         "email"=>"dindamayasari31@gmail.com",
-        "image"=>"riwayat.jpg"
+        "image"=>"riwayat.jpg",
     ]
 );
 });
